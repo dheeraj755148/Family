@@ -1,0 +1,47 @@
+body{
+    background-image: linear-gradient(#ddd6f3,#faaca8 );
+    margin: 10%;
+    padding: 5px;     
+    width: 100%;
+    height: 100vh;  
+}
+
+iframe{
+    width: 340px;
+    height: 340px;
+    margin: 5px;
+    display: inline-block;
+}
+
+@media screen and (max-width:750px){
+    #dd,#sagar,#sonal,#sampada{
+        margin: 0 auto; 
+        display: block;
+    }
+    #googledocs{
+        position: relative;
+        bottom: 0;
+        left: 0;
+    }
+    body{
+        height: 100%;  
+
+    }
+}
+
+
+#googledocs{
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+#googledocs {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:30px;   
+ }
+
+#dd,#sagar,#sonal,#sampada{
+    display: inline-block;
+}
